@@ -1,4 +1,4 @@
-.input-dark{
+.input-dark {
   appearance: none;
   background-color: var(--input-base);
   color: var(--input-placeholder);
@@ -11,7 +11,7 @@
   padding: 0.75rem 1rem;
 }
 
-.button-dark{
+.button-dark {
   appearance: none;
   display: flex;
   justify-content: center;
@@ -20,20 +20,20 @@
   gap: 0.5rem;
   background-color: var(--shape-button);
   color: var(--text-heading);
-  font: 600 0.875rem/normal var(--text-family-3);
+  font: 600 0.875rem/normal var(--font-family-3);
   width: 7.43rem;
   height: 2.5rem;
   border-radius: 0.5rem;
 }
 
-.button-light{
+.button-light {
   appearance: none;
   display: flex;
   justify-content: center;
   align-items: center;
   transition: 0.2s ease-in-out;
   gap: 0.5rem;
-  background-color: var(--brad-dark);
+  background-color: var(--brand-dark);
   color: var(--text-heading);
   font: 600 0.875rem/normal var(--font-family-3);
   width: 11.06rem;
@@ -41,19 +41,19 @@
   border-radius: 0.5rem;
 }
 
-.title{
+.title {
   display: flex;
   align-items: center;
   gap: 12px;
 }
 
-flex-2{
+.flex-1 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
   gap: 1rem;
 }
 
-.flex-2{
+.flex-2 {
   display: inline-flex;
   justify-content: space-between;
 }
